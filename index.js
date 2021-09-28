@@ -34,6 +34,12 @@ var questions = [{
 },{
   question: "Am I older than 25 Age? (yes/no) ",
   answer: "yes"
+},{
+  question: "When is my birthday? (march/july) ",
+  answer: "march"
+},{
+  question: "What is your favorite color? (red/white) ",
+  answer: "white"
 }];
 
 //loop
@@ -48,10 +54,10 @@ console.log("-------------");
 
 var allScores = [{
   name : "jagadish",
-  score : 3
+  score : 5
 },{
   name : "anand",
-  score : 2
+  score : 4
 }];
 
 finalScore();
